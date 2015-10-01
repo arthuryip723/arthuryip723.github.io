@@ -2173,7 +2173,10 @@
 				background-color: #ecf1f1;
 			}
 
-			#main > section.four {
+			/*#main > section.four {
+				background-color: #e8edec;
+			}*/
+			#main > section.five {
 				background-color: #e8edec;
 			}
 
@@ -2536,3 +2539,22 @@
 				}
 
 	}
+
+	.column-left{ float: left; width: 33%; }
+	.column-right{ float: right; width: 33%; }
+	.column-center{ display: inline-block; width: 33%; }
+
+.group:after {
+	clear: both;
+	display: block;
+	content: "";
+}
+
+.skill-logos div{
+	/*display: block;*/
+	float: left;
+	/*width: 180px;
+	height: 180px;*/
+	width: 12.5%;
+	padding: 25px;
+}
