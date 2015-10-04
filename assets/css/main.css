@@ -2559,3 +2559,7 @@
 	width: 12.5%;
 	padding: 25px;
 }
+
+.owner-image {
+	border-radius: 50%;
+}
