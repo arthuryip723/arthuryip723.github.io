@@ -2563,3 +2563,19 @@
 .owner-image {
 	border-radius: 50%;
 }
+
+.links {
+	margin-bottom: 0;
+}
+
+.github-link {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+
+img{
+	width:100%;
+	height: auto;
+	display: block;
+}
